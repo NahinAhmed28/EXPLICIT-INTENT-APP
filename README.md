@@ -1,14 +1,24 @@
 # Explicit Intent App
 
-Explicit Intent App is an Android project focused on explicit-intent navigation and activity flow. It is useful for learning how Android screens communicate through intents.
+Explicit Intent App is an Android project focused on explicit-intent navigation between screens.
 
-## Project Details
+## Features
 
-- Repository: `NahinAhmed28/EXPLICIT-INTENT-APP`
-- Default branch: `main`
-- Visibility: public
-- Project type: Android application
-- Main focus: explicit intents and activity navigation
+- Android activity navigation practice
+- Explicit intent examples
+- Data passing between screens when implemented
+- Android Studio/Gradle project workflow
+
+## Modules
+
+- Activity module: source and destination screens
+- Intent module: explicit intent creation and extras
+- UI resource module: layouts, strings, and drawables
+- App configuration module: manifest and Gradle settings
+
+## System Architecture
+
+The app follows native Android architecture. Activities render screens, explicit intents navigate between activities, resources define UI layouts, and Gradle manages build configuration. No backend is required unless API-driven examples are added later.
 
 ## Getting Started
 
@@ -17,8 +27,4 @@ git clone https://github.com/NahinAhmed28/EXPLICIT-INTENT-APP.git
 cd EXPLICIT-INTENT-APP
 ```
 
-Open the project in Android Studio, let Gradle sync, then run it on an emulator or connected Android device.
-
-## Notes
-
-Document the app screens, intent extras, minimum SDK, and screenshots as the project evolves.
+Open in Android Studio, sync Gradle, and run on an emulator or device.
